@@ -51,10 +51,7 @@ Results from each strategy are written to `backtest_results.json`, including:
 - Modify `order_size`, `bucket_window`, or random search `iteration` count in `main()`.
 - Data path for CSV file is passed into `dataProcess()`.
 
-## Potential Improvement
-Currently the allocation algorithm output any allocation only if the size at any given time stemp exceeds the order size. Need to rewrite allocation algorithm for smoother allocation.
-
-Example Output
+## Example Output
 
 {
   "optimal_parameters": {"lambda_over": 0.012, "lambda_under": 0.344, "theta_queue": 0.003},
@@ -63,6 +60,10 @@ Example Output
   "twap_baseline": {"total_cost": 50120.0, "average_price": 10.024},
   "vwap_baseline": {"total_cost": 50050.5, "average_price": 10.0101}
 }
+
+## Potential Improvement
+Currently the allocation algorithm output any allocation only if the size at any given time stemp exceeds the order size. Need to rewrite allocation algorithm for smoother allocation.
+
 Notes
 
 Current implementation assumes a single venue (NASDAQ, publisher_id = 2).
