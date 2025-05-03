@@ -1,0 +1,23 @@
+{
+    "optimal_parameters": {
+        "lambda_over": 0.0069173991292994065,
+        "lambda_under": 0.4564325621864219,
+        "theta_queue": 0.001596355135191736
+    },
+    "result_from_optimal_parameters": {
+        "total_cost": 1113715.0,
+        "average_price": 222.743
+    },
+    "best_ask_baseline": {
+        "total_cost": 1114117.28,
+        "average_price": 222.823456
+    },
+    "twap_baseline": {
+        "total_cost": 1115304.3599999999,
+        "average_price": 223.06087199999996
+    },
+    "vwap_baseline": {
+        "total_cost": 1114117.28,
+        "average_price": 222.823456
+    }
+}
